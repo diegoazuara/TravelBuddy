@@ -18,7 +18,9 @@
         android:id="@+id/antros"
         android:src="@drawable/antros"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:padding="0dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="#fff"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
     <ImageButton
@@ -39,7 +41,9 @@
         android:id="@+id/bares"
         android:src="@drawable/bares"
         android:layout_below="@+id/antros"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:padding="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,7 +52,7 @@
         android:id="@+id/textView9"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#fff" />
 

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.mario.dispositivosmoviles.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:fillViewport="false">
+
 
     <ImageButton
         android:layout_width="182dp"
@@ -23,9 +33,9 @@
         android:src="@drawable/vida_nocturna"
         android:background="#009FC7"
         android:layout_marginRight="0dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" />
+        android:layout_marginTop="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +43,8 @@
             android:id="@+id/textView"
             android:text="VIDA NOCTURNA"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
             android:layout_alignBottom="@+id/nocturno"
             android:layout_alignParentStart="true"
@@ -41,17 +52,17 @@
             android:layout_marginBottom="5dp" />
 
     <ImageButton
-        android:layout_width="182dp"
+        android:layout_width="180dp"
         android:layout_height="170dp"
         android:id="@+id/restaurants"
         android:src="@drawable/restaurants"
         android:background="#FFB733"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/hoteles"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/nocturno"
-        android:layout_alignParentRight="true" />
+        android:layout_alignStart="@+id/cafe" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,7 +70,8 @@
             android:id="@+id/textView2"
             android:text="RESTAURANTES"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
             android:layout_alignBottom="@+id/restaurants"
             android:layout_alignEnd="@+id/restaurants"
@@ -71,14 +83,10 @@
         android:layout_height="170dp"
         android:id="@+id/hoteles"
         android:src="@drawable/hoteles"
-        android:background="#FF3434"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="false"
+        android:background="#ff471a"
         android:layout_alignWithParentIfMissing="false"
-        android:layout_toStartOf="@+id/quehacer"
-        android:layout_above="@+id/quevisitar"
-        android:layout_below="@+id/nocturno" />
+        android:layout_below="@+id/nocturno"
+        android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -86,32 +94,31 @@
             android:id="@+id/textView3"
             android:text="HOTELES"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
             android:layout_alignBottom="@+id/hoteles"
+            android:layout_marginBottom="5dp"
             android:layout_alignParentStart="true"
-            android:layout_alignEnd="@+id/hoteles"
-            android:layout_marginBottom="5dp" />
+            android:layout_toStartOf="@+id/cafe" />
 
     <ImageButton
-        android:layout_width="182dp"
+        android:layout_width="178dp"
         android:layout_height="170dp"
-        android:id="@+id/quehacer"
-        android:src="@drawable/que_hacer"
-        android:background="#ffff4d"
+        android:id="@+id/cafe"
+        android:src="@drawable/cafe"
+        android:background="#ae3f3f"
         android:layout_alignWithParentIfMissing="false"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/nocturno"
-        android:layout_alignParentRight="true"
-        android:layout_above="@+id/contactos"
-        android:layout_alignTop="@+id/hoteles" />
+        android:layout_above="@+id/museos"
+        android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView4"
-            android:text="¿QUÉ HACER?"
-            android:textColor="#000"
+            android:text="CAFETERIAS"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
             android:textAlignment="center"
             android:layout_alignParentEnd="true"
@@ -121,52 +128,116 @@
     <ImageButton
         android:layout_width="182dp"
         android:layout_height="170dp"
-        android:id="@+id/quevisitar"
-        android:src="@drawable/que_visitar"
+        android:id="@+id/museos"
+        android:src="@drawable/museos"
         android:background="#8e3694"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_toStartOf="@+id/quehacer" />
+        android:layout_below="@+id/hoteles"
+        android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
-            android:text="¿QUÉ VISITAR?"
+            android:text="MUSEOS"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
+            android:layout_alignBottom="@+id/museos"
+            android:layout_marginBottom="5dp"
             android:layout_alignParentStart="true"
-            android:layout_alignBottom="@+id/quevisitar"
-            android:layout_alignEnd="@+id/quevisitar"
-            android:layout_alignParentBottom="true"
-            android:layout_toStartOf="@+id/contactos"
-            android:layout_marginBottom="5dp" />
+            android:layout_toStartOf="@+id/parques" />
 
     <ImageButton
-        android:layout_width="182dp"
+        android:layout_width="180dp"
         android:layout_height="170dp"
-        android:id="@+id/contactos"
-        android:src="@drawable/directorio"
+        android:id="@+id/parques"
+        android:src="@drawable/parques"
         android:background="#00C78C"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/quevisitar"
-        android:layout_toEndOf="@+id/quevisitar" />
+        android:layout_alignTop="@+id/museos"
+        android:layout_toEndOf="@+id/hoteles" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView6"
-            android:text="DIRECTORIO"
+            android:text="PARQUES"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
+            android:textStyle="bold"
             android:textSize="15sp"
-            android:layout_alignWithParentIfMissing="false"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/textView5"
-            android:layout_toEndOf="@+id/quevisitar" />
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/museos" />
+
+    <ImageButton
+        android:layout_width="182dp"
+        android:layout_height="170dp"
+        android:id="@+id/hospitales"
+        android:src="@drawable/hospitales"
+        android:background="#FF3434"
+        android:layout_below="@+id/museos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:text="HOSPITALES"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_alignBottom="@id/hospitales"
+        android:layout_alignEnd="@+id/hospitales"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageButton
+        android:layout_width="182dp"
+        android:layout_height="170dp"
+        android:id="@+id/plazas_comerciales"
+        android:src="@drawable/plazas_comerciales"
+        android:background="#cc0044"
+        android:layout_below="@+id/parques"
+        android:layout_toEndOf="@+id/hospitales"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:text="PLAZAS COMERCIALES"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/plazas_comerciales"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/hospitales"
+        android:layout_marginBottom="5dp"/>
+
+
+    <ImageButton
+        android:layout_width="182dp"
+        android:layout_height="170dp"
+        android:id="@+id/directorio"
+        android:src="@drawable/directorio"
+        android:background="#259494"
+        android:layout_below="@+id/hospitales" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:text="DIRECTORIO"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignCenter="@+id/directorio"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"/>
 
 </RelativeLayout>
+</ScrollView>
