@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,27 +24,29 @@
         android:id="@+id/dclub"
         android:src="@drawable/dclub"
         android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:scaleType="fitXY"
-        android:padding="2dp"/>
+        android:layout_marginTop="56dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="D Club"
-        android:id="@+id/textView8"
-        android:paddingTop="60dp"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:background="#221f23"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/dclub"
-        android:layout_alignBottom="@+id/dclub"
-        android:layout_alignParentTop="true"
-        android:textAlignment="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="D Club"
+            android:id="@+id/textView8"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:background="#343036"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/dclub"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/dclub"
+            android:layout_above="@+id/textView11"
+            android:layout_margin="2dp"
+            android:width="100dp" />
 
     <ImageButton
         android:layout_width="150dp"
@@ -51,23 +59,26 @@
         android:layout_below="@+id/dclub"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Maddox"
-        android:id="@+id/textView11"
-        android:paddingTop="60dp"
-        android:textColor="#fff"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Maddox"
+            android:id="@+id/textView11"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
 
-        android:textSize="25dp"
-        android:background="#110f11"
-        android:textAlignment="center"
-        android:layout_below="@+id/textView8"
-        android:layout_alignBottom="@+id/maddox"
-        android:layout_alignEnd="@+id/textView8"
-        android:layout_toEndOf="@+id/dclub" />
+            android:textSize="25dp"
+            android:background="#110f11"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/maddox"
+            android:layout_alignBottom="@+id/maddox"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/maddox" />
 
     <ImageButton
         android:layout_width="150dp"
@@ -80,22 +91,91 @@
         android:layout_below="@+id/maddox"
         android:layout_alignParentStart="true" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Republica"
+            android:id="@+id/textView12"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:background="#343036"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/republica"
+            android:layout_alignBottom="@+id/republica"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/republica" />
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/press"
+        android:src="@drawable/press"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/republica"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Republica"
-        android:id="@+id/textView12"
+        android:text="Press"
+        android:id="@+id/textView13"
         android:paddingTop="60dp"
         android:textColor="#fff"
         android:textSize="25dp"
-        android:background="#221f23"
+        android:background="#110f11"
         android:textAlignment="center"
-        android:layout_alignTop="@+id/republica"
-        android:layout_alignBottom="@+id/republica"
-        android:layout_alignEnd="@+id/textView11"
-        android:layout_toEndOf="@+id/republica" />
+        android:layout_alignTop="@+id/press"
+        android:layout_alignBottom="@+id/press"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView12"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/strana"
+        android:src="@drawable/strana"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/press"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Strana"
+        android:id="@+id/textView14"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#343036"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/strana"
+        android:layout_alignBottom="@+id/strana"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView13"
+        android:width="190dp"/>
 
 
 </RelativeLayout>
+</ScrollView>
