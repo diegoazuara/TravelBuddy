@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class antros extends AppCompatActivity {
@@ -24,6 +25,15 @@ public class antros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(antros.this, infoDclub.class);
+                startActivity(intent);
+            }
+        });
+
+        Button locAntros = (Button) findViewById(R.id.locAntros);
+        locAntros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, MapsActivity2.class);
                 startActivity(intent);
             }
         });
