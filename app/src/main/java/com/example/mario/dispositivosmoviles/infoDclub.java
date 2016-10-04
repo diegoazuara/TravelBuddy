@@ -24,7 +24,7 @@ public class infoDclub extends AppCompatActivity{
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Button botonDclub = (Button)findViewById(R.id.button);
+        Button botonDclub = (Button)findViewById(R.id.button2);
 
         botonDclub.setOnClickListener(new View.OnClickListener() {
                                           @Override
@@ -32,7 +32,7 @@ public class infoDclub extends AppCompatActivity{
                                               Intent intent = new Intent();
                                               intent.setAction(Intent.ACTION_VIEW);
                                               intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                                              intent.setData(Uri.parse("https://www.google.com.mx/maps/place/D+Club+Monterrey/@25.6597522,-100.3699162,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bdf2c5d1c71b:0x8f34550e8270d161!8m2!3d25.6597522!4d-100.3677275"));
+                                              intent.setData(Uri.parse("https://www.google.com.mx/maps/place/D+Club+Monterrey/@25.6597522,-100.3699162,9z/data=!3m1!4b1!4m5!3m4!1s0x8662bdf2c5d1c71b:0x8f34550e8270d161!8m2!3d25.6597522!4d-100.3677275"));
                                               startActivity(intent);
                                           }
                                       }
