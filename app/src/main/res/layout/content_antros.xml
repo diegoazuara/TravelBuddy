@@ -8,7 +8,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="8dp"
     android:paddingLeft="8dp"
@@ -16,7 +15,8 @@
     android:paddingTop="8dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".antros"
-    tools:showIn="@layout/activity_antros">
+    tools:showIn="@layout/activity_antros"
+    android:layout_width="match_parent">
 
     <ImageButton
         android:layout_width="150dp"
@@ -123,26 +123,26 @@
         android:layout_below="@+id/republica"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Press"
-        android:id="@+id/textView13"
-        android:paddingTop="60dp"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:background="#110f11"
-        android:textAlignment="center"
-        android:layout_alignTop="@+id/press"
-        android:layout_alignBottom="@+id/press"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView12"
-        android:width="190dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Press"
+            android:id="@+id/textView13"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:background="#110f11"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/press"
+            android:layout_alignBottom="@+id/press"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView12"
+            android:width="190dp"/>
 
     <ImageButton
         android:layout_width="150dp"
@@ -155,26 +155,71 @@
         android:layout_below="@+id/press"
         android:layout_alignParentStart="true" />
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Strana"
+            android:id="@+id/textView14"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:background="#343036"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/strana"
+            android:layout_alignBottom="@+id/strana"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView13"
+            android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/barezzito"
+        android:src="@drawable/barezzito"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/strana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Barezzito"
+            android:id="@+id/textView15"
+            android:paddingTop="60dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:background="#110f11"
+            android:textAlignment="center"
+            android:layout_alignTop="@+id/barezzito"
+            android:layout_alignBottom="@+id/barezzito"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView14"
+            android:width="190dp"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Strana"
-        android:id="@+id/textView14"
-        android:paddingTop="60dp"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:background="#343036"
+        android:text="Ver localizaciones"
+        android:id="@+id/locAntros"
+        android:layout_below="@+id/barezzito"
         android:textAlignment="center"
-        android:layout_alignTop="@+id/strana"
-        android:layout_alignBottom="@+id/strana"
         android:layout_marginLeft="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView13"
-        android:width="190dp"/>
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
