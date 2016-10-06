@@ -29,16 +29,6 @@ public class antros extends AppCompatActivity {
             }
         });
 
-        Button locAntros = (Button) findViewById(R.id.locAntros);
-        locAntros.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(antros.this, MapsActivity2.class);
-                startActivity(intent);
-            }
-        });
-
-
     }
 
 }
