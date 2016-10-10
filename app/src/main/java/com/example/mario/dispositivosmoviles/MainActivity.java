@@ -29,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton plazascomerciales = (ImageButton) findViewById(R.id.plazas_comerciales);
+        plazascomerciales.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, plazasComerciales.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
