@@ -9,4 +9,5 @@
     <string name="title_activity_maps2">Map</string>
     <string name="title_activity_plazas_comerciales">plazasComerciales</string>
     <string name="title_activity_info_plaza_cumbres">infoPlazaCumbres</string>
+    <string name="title_activity_info_maddox">infoMaddox</string>
 </resources>

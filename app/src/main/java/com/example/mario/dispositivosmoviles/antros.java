@@ -29,6 +29,15 @@ public class antros extends AppCompatActivity {
             }
         });
 
+        ImageButton maddox = (ImageButton) findViewById(R.id.maddox);
+        maddox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoMaddox.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }

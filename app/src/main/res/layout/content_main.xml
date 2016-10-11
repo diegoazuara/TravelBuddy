@@ -195,7 +195,7 @@
     <ImageButton
         android:layout_width="182dp"
         android:layout_height="170dp"
-        android:id="@+id/plazas_comerciales"
+        android:id="@+id/plazascomerciales"
         android:src="@drawable/plazas_comerciales"
         android:background="#cc0044"
         android:layout_below="@+id/parques"
@@ -210,7 +210,7 @@
         android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:layout_alignBottom="@+id/plazas_comerciales"
+        android:layout_alignBottom="@+id/plazascomerciales"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/hospitales"
         android:layout_marginBottom="5dp"/>

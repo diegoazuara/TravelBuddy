@@ -18,6 +18,7 @@ public class plazasComerciales extends AppCompatActivity {
         setContentView(R.layout.activity_plazas_comerciales);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

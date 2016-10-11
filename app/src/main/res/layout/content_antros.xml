@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -206,6 +206,71 @@
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/textView14"
             android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/classico"
+        android:id="@+id/classico"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_toStartOf="@+id/textView15"
+        android:layout_below="@+id/barezzito"
+        android:layout_alignEnd="@+id/barezzito" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Classico"
+        android:id="@+id/textView16"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#343036"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/classico"
+        android:layout_alignBottom="@+id/classico"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView15"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/nuvo"
+        android:id="@+id/nuvo"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_alignEnd="@+id/classico"
+        android:layout_below="@+id/classico"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nuvo Bar"
+        android:id="@+id/textView17"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#110f11"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/nuvo"
+        android:layout_alignBottom="@+id/nuvo"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView16"
+        android:width="190dp"/>
 
 
 </RelativeLayout>
