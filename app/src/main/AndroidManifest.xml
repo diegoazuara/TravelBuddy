@@ -67,6 +67,10 @@
             android:name=".plazasComerciales"
             android:label="@string/title_activity_plazas_comerciales">
         </activity>
+        <activity
+            android:name=".infoPlazaCumbres"
+            android:label="@string/title_activity_info_plaza_cumbres">
+        </activity>
     </application>
 
 </manifest>
