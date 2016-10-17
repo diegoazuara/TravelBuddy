@@ -10,4 +10,5 @@
     <string name="title_activity_plazas_comerciales">plazasComerciales</string>
     <string name="title_activity_info_plaza_cumbres">infoPlazaCumbres</string>
     <string name="title_activity_info_maddox">infoMaddox</string>
+    <string name="title_activity_cafeterias">cafeterias</string>
 </resources>
