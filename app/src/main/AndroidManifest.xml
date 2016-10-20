@@ -45,6 +45,7 @@
             android:label="@string/title_activity_info_dclub"
             android:parentActivityName=".antros"
             android:theme="@style/AppTheme.NoActionBar"/>
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -66,17 +67,40 @@
         <activity
             android:name=".plazasComerciales"
             android:label="@string/title_activity_plazas_comerciales"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".infoPlazaCumbres"
-            android:label="@string/title_activity_info_plaza_cumbres"/>
+            android:label="@string/title_activity_info_plaza_cumbres"
+            android:parentActivityName=".plazasComerciales"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".infoMaddox"
             android:label="@string/title_activity_info_maddox"
             android:parentActivityName=".antros"/>
         <activity
             android:name=".cafeterias"
-            android:label="@string/title_activity_cafeterias">
+            android:label="@string/title_activity_cafeterias"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".infoNuevoSur"
+            android:label="@string/title_activity_info_nuevo_sur"
+            android:parentActivityName=".plazasComerciales"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".infoSanAgustin"
+            android:label="@string/title_activity_info_san_agustin"
+            android:parentActivityName=".plazasComerciales"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".infoValleOriente"
+            android:label="@string/title_activity_info_valle_oriente"
+            android:parentActivityName=".plazasComerciales"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

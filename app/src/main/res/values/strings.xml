@@ -7,8 +7,11 @@
     <string name="title_activity_info_dclub">D Club</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
-    <string name="title_activity_plazas_comerciales">plazasComerciales</string>
-    <string name="title_activity_info_plaza_cumbres">infoPlazaCumbres</string>
+    <string name="title_activity_plazas_comerciales">Plazas Comerciales</string>
+    <string name="title_activity_info_plaza_cumbres">Plaza Cumbres</string>
     <string name="title_activity_info_maddox">infoMaddox</string>
-    <string name="title_activity_cafeterias">cafeterias</string>
+    <string name="title_activity_cafeterias">Cafeterías</string>
+    <string name="title_activity_info_nuevo_sur">Plaza Nuevo Sur</string>
+    <string name="title_activity_info_san_agustin">Plaza Fiesta San Agustín</string>
+    <string name="title_activity_info_valle_oriente">Galerías Valle Oriente</string>
 </resources>

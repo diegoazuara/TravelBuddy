@@ -39,7 +39,7 @@
         android:layout_marginBottom="13dp" />
 
     <TextView
-        android:text="Direccion:"
+        android:text="Dirección:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView23"
@@ -84,15 +84,6 @@
         android:layout_marginBottom="64dp"
         android:paddingBottom="20dp" />
 
-    <Button
-        android:text="VER EN MAPA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView22"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="28dp"
-        android:id="@+id/button2" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,5 +92,14 @@
         android:paddingBottom="40dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"/>
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentEnd="true"/>
 
 </RelativeLayout>

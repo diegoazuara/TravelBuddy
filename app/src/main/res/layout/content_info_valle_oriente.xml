@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_info_plaza_cumbres"
+    android:id="@+id/activity_info_valle_oriente"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="8dp"
@@ -10,17 +10,16 @@
     android:paddingRight="8dp"
     android:paddingTop="8dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.mario.dispositivosmoviles.infoPlazaCumbres"
-    tools:showIn="@layout/activity_info_plaza_cumbres">
-
+    tools:context="com.example.mario.dispositivosmoviles.infoValleOriente"
+    tools:showIn="@layout/activity_info_valle_oriente">
 
     <TextView
-        android:text="Plaza Cumbres"
+        android:text="Galerías Valle Oriente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="17dp"
-        android:id="@+id/textView26"
+        android:id="@+id/textView48"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#000"
@@ -29,36 +28,35 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:text="Alejandro de Rodas, Bosques de Las Cumbres, 64619 Monterrey, N.L."
+        android:text="Avenida Lázaro Cárdenas 1000, Paseo de Las Privanzas, 52552 San Pedro Garza García, NL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView27"
+        android:id="@+id/textView49"
         android:textColor="#000"
         android:textSize="18sp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginBottom="40dp"/>
 
     <TextView
         android:text="Dirección:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView28"
+        android:id="@+id/textView50"
         android:textColor="#000"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_alignBottom="@+id/textView27"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="42dp"/>
+        android:layout_above="@+id/textView49"
+        android:layout_alignParentStart="true"/>
 
     <TextView
-        android:text="Lunes a Domingo de 11:00am a 9:00pm"
+        android:text="Lunes a Domingo de 10:00am a 9:00pm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView29"
+        android:id="@+id/textView51"
         android:textSize="18sp"
         android:textColor="#000"
-        android:layout_above="@+id/textView28"
+        android:layout_above="@+id/textView50"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="19dp"/>
 
@@ -66,40 +64,42 @@
         android:text="Horario:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView30"
+        android:id="@+id/textView52"
         android:textColor="#000"
         android:textSize="20sp"
         android:textStyle="normal|bold"
-        android:layout_above="@+id/textView29"
+        android:layout_above="@+id/textView51"
         android:layout_alignParentStart="true"/>
 
     <TextView
-        android:text="Plaza con más de 120 locales destinados a tiendas de especialidad y más de 2,200 cajones de estacionamiento"
+        android:text="Centro comercial en Monterrey, México. El arquitecto encargado del proyecto fue Marcos Suberville. Se abrió en 2003. El promotor fue Grupo U-Calli."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView31"
+        android:id="@+id/textView53"
         android:textColor="#000"
         android:textSize="18sp"
-        android:layout_above="@+id/textView29"
+        android:layout_above="@+id/textView51"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
         android:paddingBottom="20dp"/>
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/plazacumbres_ed"
-        android:id="@+id/imageView2"
+        android:src="@drawable/valleoriente_ed"
+        android:id="@+id/imageView5"
         android:paddingBottom="40dp"
         android:layout_marginTop="13dp"
-        android:layout_below="@+id/textView26"
+        android:layout_below="@+id/textView48"
         android:layout_centerHorizontal="true"/>
 
     <Button
         android:text="VER EN MAPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/button6"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
+
+
 </RelativeLayout>
