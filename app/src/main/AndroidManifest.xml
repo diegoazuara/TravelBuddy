@@ -102,6 +102,12 @@
             android:parentActivityName=".plazasComerciales"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+            android:name=".infoTheNada"
+            android:label="@string/title_activity_info_the_nada"
+            android:parentActivityName=".cafeterias"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

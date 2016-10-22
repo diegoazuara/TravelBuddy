@@ -14,4 +14,6 @@
     <string name="title_activity_info_nuevo_sur">Plaza Nuevo Sur</string>
     <string name="title_activity_info_san_agustin">Plaza Fiesta San Agustín</string>
     <string name="title_activity_info_valle_oriente">Galerías Valle Oriente</string>
+    <string name="title_activity_the_nada">TheNada</string>
+    <string name="title_activity_info_the_nada">The Nada</string>
 </resources>

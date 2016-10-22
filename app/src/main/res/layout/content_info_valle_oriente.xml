@@ -85,7 +85,7 @@
 
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:src="@drawable/valleoriente_ed"
         android:id="@+id/imageView5"
         android:paddingBottom="40dp"
