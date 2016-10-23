@@ -38,6 +38,51 @@ public class antros extends AppCompatActivity {
             }
         });
 
+        ImageButton repu = (ImageButton) findViewById(R.id.republica);
+        repu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoRepublica.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton press = (ImageButton) findViewById(R.id.press);
+        press.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoPress.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton strana = (ImageButton) findViewById(R.id.strana);
+        strana.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoStrana.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton barezzito = (ImageButton) findViewById(R.id.barezzito);
+        barezzito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoBarezzito.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton classico = (ImageButton) findViewById(R.id.classico);
+        classico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(antros.this, infoClassico.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 }

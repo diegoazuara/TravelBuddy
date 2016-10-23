@@ -240,37 +240,9 @@
         android:layout_below="@+id/textView15"
         android:width="190dp"/>
 
-    <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:srcCompat="@drawable/nuvo"
-        android:id="@+id/nuvo"
-        android:background="#fff"
-        android:scaleType="fitXY"
-        android:padding="2dp"
-        android:layout_alignEnd="@+id/classico"
-        android:layout_below="@+id/classico"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Nuvo Bar"
-        android:id="@+id/textView17"
-        android:paddingTop="60dp"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:background="#110f11"
-        android:textAlignment="center"
-        android:layout_alignTop="@+id/nuvo"
-        android:layout_alignBottom="@+id/nuvo"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView16"
-        android:width="190dp"/>
+
+
 
 
 </RelativeLayout>

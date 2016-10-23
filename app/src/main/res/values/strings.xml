@@ -9,7 +9,7 @@
     <string name="title_activity_maps2">Map</string>
     <string name="title_activity_plazas_comerciales">Plazas Comerciales</string>
     <string name="title_activity_info_plaza_cumbres">Plaza Cumbres</string>
-    <string name="title_activity_info_maddox">infoMaddox</string>
+    <string name="title_activity_info_maddox">Maddox</string>
     <string name="title_activity_cafeterias">Cafeterías</string>
     <string name="title_activity_info_nuevo_sur">Plaza Nuevo Sur</string>
     <string name="title_activity_info_san_agustin">Plaza Fiesta San Agustín</string>
@@ -19,4 +19,9 @@
     <string name="title_activity_info_tierra_libre">Tierra Libre</string>
     <string name="title_activity_info_galeria_cafe">La Galería Cafe</string>
     <string name="title_activity_info_punta_cielo">Café Punta del Cielo</string>
+    <string name="title_activity_info_republica">Republica</string>
+    <string name="title_activity_info_press">Press</string>
+    <string name="title_activity_info_strana">Strana</string>
+    <string name="title_activity_info_barezzito">Barezzito</string>
+    <string name="title_activity_info_classico">Classico</string>
 </resources>

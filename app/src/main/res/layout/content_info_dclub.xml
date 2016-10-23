@@ -28,36 +28,23 @@
         android:textAlignment="center" />
 
     <TextView
-        android:text="Del Valle, 66220 N.L."
+        android:text="Espacio amplio con techo alto, luces coloridas y paredes de ladrillo y madera para bailar música de DJs."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView24"
+        android:id="@+id/textView25"
         android:textColor="#000"
         android:textSize="18sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp" />
+        android:layout_marginBottom="28dp"
+        android:paddingBottom="20dp"
+        android:layout_above="@+id/textView21"
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text="Dirección:"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView23"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_alignBottom="@+id/textView24"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="22dp" />
-
-    <TextView
-        android:text="Jueves a Sabado de 9:00pm a 2:00am"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView22"
-        android:textSize="18sp"
-        android:textColor="#000"
-        android:layout_above="@+id/textView23"
+        app:srcCompat="@drawable/dclub_ed"
+        android:id="@+id/imageView"
+        android:layout_alignBottom="@+id/textView25"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="19dp" />
 
@@ -73,33 +60,44 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Espacio amplio con techo alto, luces coloridas y paredes de ladrillo y madera para bailar música de DJs."
+        android:text="Jueves a Sabado de 9:00pm a 2:00am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView25"
+        android:id="@+id/textView22"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/textView23"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Del Valle, 66220 N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
         android:textColor="#000"
         android:textSize="18sp"
-        android:layout_above="@+id/textView22"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="64dp"
-        android:paddingBottom="20dp" />
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
-    <ImageView
+    <TextView
+        android:text="Dirección:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dclub_ed"
-        android:id="@+id/imageView"
-        android:paddingBottom="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"/>
+        android:id="@+id/textView23"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView24"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="VER EN MAPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
         android:id="@+id/button2"
-        android:layout_below="@+id/textView22"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
