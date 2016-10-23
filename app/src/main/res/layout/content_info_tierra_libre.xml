@@ -10,16 +10,16 @@
     android:paddingTop="8dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.mario.dispositivosmoviles.infoTheNada"
-    tools:showIn="@layout/activity_info_the_nada">
+    tools:showIn="@layout/activity_info_tierra_libre">
 
 
     <TextView
-        android:text="The Nada"
+        android:text="Tierra Libre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="17dp"
-        android:id="@+id/textView54"
+        android:id="@+id/textView60"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#000"
@@ -28,10 +28,10 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:text="Terranova 962, Vista Hermosa, 64620 Monterrey, N.L"
+        android:text="Calle Mariano Matamoros #929, Centro, 64000 Monterrey, N.L."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView55"
+        android:id="@+id/textView61"
         android:textColor="#000"
         android:textSize="18sp"
         android:layout_alignParentBottom="true"
@@ -42,22 +42,22 @@
         android:text="Dirección:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView56"
+        android:id="@+id/textView62"
         android:textColor="#000"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_alignBottom="@+id/textView55"
+        android:layout_alignBottom="@+id/textView61"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="42dp"/>
 
     <TextView
-        android:text="Lunes a Domingo de 9:00am a 10:00pm"
+        android:text="Martes a Domingo de 1:00pm a 10:00pm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView57"
+        android:id="@+id/textView63"
         android:textSize="18sp"
         android:textColor="#000"
-        android:layout_above="@+id/textView56"
+        android:layout_above="@+id/textView62"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="19dp"/>
 
@@ -65,42 +65,40 @@
         android:text="Horario:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView58"
+        android:id="@+id/textView64"
         android:textColor="#000"
         android:textSize="20sp"
         android:textStyle="normal|bold"
-        android:layout_above="@+id/textView57"
+        android:layout_above="@+id/textView63"
         android:layout_alignParentStart="true"/>
 
     <TextView
-        android:text="Una cafetería un tanto locuaz y fodonga, que se esta volviendo el lugar del 'brunch'. Su menú va más allá de un simple cafesito y su ambientación es la sensación."
+        android:text="Café y jugos naturales acompañados de sándwiches y ensaladas en un artístico local con atmósfera cálida."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView59"
+        android:id="@+id/textView65"
         android:textColor="#000"
         android:textSize="18sp"
-        android:layout_above="@+id/textView58"
+        android:layout_above="@+id/textView64"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:paddingBottom="0dp"/>
 
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:src="@drawable/thenada_ed"
-        android:id="@+id/imageView6"
+        android:layout_height="230dp"
+        android:src="@drawable/tierralibre_ed"
+        android:id="@+id/imageView7"
         android:paddingBottom="40dp"
         android:layout_marginTop="13dp"
-        android:layout_below="@+id/textView54"
+        android:layout_below="@+id/textView60"
         android:layout_centerHorizontal="true"/>
 
     <Button
         android:text="VER EN MAPA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button7"
+        android:id="@+id/button8"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
-
-
 </RelativeLayout>

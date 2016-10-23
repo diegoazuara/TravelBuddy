@@ -108,6 +108,24 @@
             android:parentActivityName=".cafeterias"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+            android:name=".infoTierraLibre"
+            android:label="@string/title_activity_info_tierra_libre"
+            android:parentActivityName=".cafeterias"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".infoGaleriaCafe"
+            android:label="@string/title_activity_info_galeria_cafe"
+            android:parentActivityName=".cafeterias"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".infoPuntaCielo"
+            android:label="@string/title_activity_info_punta_cielo"
+            android:parentActivityName=".cafeterias"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

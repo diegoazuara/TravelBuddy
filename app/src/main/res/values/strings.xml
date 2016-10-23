@@ -16,4 +16,7 @@
     <string name="title_activity_info_valle_oriente">Galerías Valle Oriente</string>
     <string name="title_activity_the_nada">TheNada</string>
     <string name="title_activity_info_the_nada">The Nada</string>
+    <string name="title_activity_info_tierra_libre">Tierra Libre</string>
+    <string name="title_activity_info_galeria_cafe">La Galería Cafe</string>
+    <string name="title_activity_info_punta_cielo">Café Punta del Cielo</string>
 </resources>
