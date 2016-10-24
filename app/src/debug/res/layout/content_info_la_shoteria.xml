@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_la_shoteria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.infoLaShoteria"
+    tools:showIn="@layout/activity_info_la_shoteria">
+
+    <TextView
+        android:text="La Shoteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView143"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/la_shoteria_ed"
+        android:id="@+id/imageView21"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Bar con ambiente juvenil, excelente comida y una variedad de bebidas para el precopeo o para ver el futbol."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView144"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView144"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView145"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Jueves a Sabado de 20:00 a 3:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView145"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView146"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Direccion:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView146"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView147"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Av. Miguel Alemán Entre la Calle La Luz y Calle Las Américas 6063, Las Americas, 67130 Guadalupe, N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView147"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView148"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button22" />
+</RelativeLayout>

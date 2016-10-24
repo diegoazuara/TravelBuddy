@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_la_clamateria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.infoLaClamateria"
+    tools:showIn="@layout/activity_info_la_clamateria">
+
+    <TextView
+        android:text="La Clamateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView126"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/la_clamateria_ed"
+        android:id="@+id/imageView19"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="139dp" />
+
+    <TextView
+        android:text="Los mejores clamatos preparados y excelente música de fondo, promociones los fines de semana, buenos precios."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:id="@+id/textView132"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/imageView19"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView19"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView133"
+        android:textStyle="normal|bold"
+        android:textSize="19sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Lunes a Domingo de 15:00 a 1:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView132"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView134"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Direccion:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView134"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView135"
+        android:textStyle="normal|bold"
+        android:textSize="19sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Rio Mississippi 198, Del Valle, 66220 Monterrey, N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView135"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView137"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button20" />
+</RelativeLayout>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.mario.dispositivosmoviles.bares">
+    tools:context="com.example.mario.dispositivosmoviles.srMostachoInfo">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,6 +20,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_bares" />
+    <include layout="@layout/content_sr_mostacho_info" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_la_macarena"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.infoLaMacarena"
+    tools:showIn="@layout/activity_info_la_macarena">
+
+    <TextView
+        android:text="La Macarena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView119"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/macarena_ed"
+        android:layout_marginTop="17dp"
+        android:id="@+id/imageView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="La macarena es un lugar con un concepto que va de la música salsa a la banda norteña dependiendo del día."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView120"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/imageView17"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView121"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Lunes a Domingo de 15:00 A 02:00 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView121"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView122"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Direccion:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView122"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView123"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Av. Miguel Aleman No. 6063, Local 401 al 404, Las Americas, 67130 Guadalupe, N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView123"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView124"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button18" />
+
+</RelativeLayout>

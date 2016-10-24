@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bares"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.bares"
+    tools:showIn="@layout/activity_bares">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/sr_mostacho"
+        android:src="@drawable/sr_mostacho"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sr. Mostacho"
+        android:id="@+id/textView1010"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#343036"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/sr_mostacho"
+        android:layout_alignBottom="@+id/sr_mostacho"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/sr_mostacho"
+        android:width="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La Macarena"
+        android:id="@+id/textView1011"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#110f11"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/la_macarena"
+        android:layout_alignBottom="@+id/la_macarena"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/la_macarena"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/la_macarena"
+        android:src="@drawable/la_macarena"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/sr_mostacho"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/el_costenito"
+        android:src="@drawable/el_costenito"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/la_macarena"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="El Costeñito"
+        android:id="@+id/textView1012"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#343036"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/el_costenito"
+        android:layout_alignBottom="@+id/el_costenito"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/el_costenito"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/la_clamateria"
+        android:src="@drawable/la_clamateria"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/el_costenito"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La Clamateria"
+        android:id="@+id/textView1013"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#110f11"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/la_clamateria"
+        android:layout_alignBottom="@+id/la_clamateria"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/la_clamateria"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/la_coqueta"
+        android:src="@drawable/la_coqueta"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/la_clamateria"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La Coqueta"
+        android:id="@+id/textView1014"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#343036"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/la_coqueta"
+        android:layout_alignBottom="@+id/la_coqueta"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/la_coqueta"
+        android:width="190dp"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/la_shoteria"
+        android:src="@drawable/la_shoteria"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/la_coqueta"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La Shoteria"
+        android:id="@+id/textView1015"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#110f11"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/la_shoteria"
+        android:layout_alignBottom="@+id/la_shoteria"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/la_shoteria"
+        android:width="190dp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

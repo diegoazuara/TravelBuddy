@@ -2,8 +2,9 @@
     <string name="app_name">TravelBuddy</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_vida_nocturna">Vida Nocturna</string>
+    <string name="title_activity_vida_nocturna1">VIDA NOCTURNA</string>
     <string name="title_activity_d_club">Antros</string>
-    <string name="title_activity_bares">bares</string>
+    <string name="title_activity_bares">Bares</string>
     <string name="title_activity_info_dclub">D Club</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
@@ -24,4 +25,18 @@
     <string name="title_activity_info_strana">Strana</string>
     <string name="title_activity_info_barezzito">Barezzito</string>
     <string name="title_activity_info_classico">Classico</string>
+    <string name="title_activity_sr_mostacho_info">Sr. Mostacho</string>
+    <string name="title_activity_info_la_macarena">La Macarena</string>
+    <string name="title_activity_info_el_costenito">El Costeñito</string>
+    <string name="title_activity_info_la_clamateria">La Clamateria</string>
+    <string name="title_activity_info_la_coqueta">La Coqueta</string>
+    <string name="title_activity_info_la_shoteria">La Shoteria</string>
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="hoteles">HOTELES</string>
+    <string name="cafeterias">CAFETERIAS</string>
+    <string name="museos">MUSEOS</string>
+    <string name="parques">PARQUES</string>
+    <string name="hospitales">HOSPITALES</string>
+    <string name="plazasComerciales">PLAZAS COMERCIALES</string>
+    <string name="directorio">DIRECTORIO</string>
 </resources>

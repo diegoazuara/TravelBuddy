@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sr_mostacho_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.srMostachoInfo"
+    tools:showIn="@layout/activity_sr_mostacho_info">
+
+    <TextView
+        android:text="Sr. Mostacho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView10"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView16"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView115"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Direccion:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView116"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp"
+        android:id="@+id/textView117"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Paseo Tec, Avenida Eugenio Garza Sada 2411"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView117"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView118"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mostacho_ed"
+        android:id="@+id/imageView16"
+        android:layout_marginBottom="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Bar con ambiente juvenil, menú internacional y una variedad de bebidas para el precopeo o para ver el futbol."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/textView114"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_above="@+id/textView115"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Lunes a Jueves de 13:00-1:00, Jueves a Sabado de 13:00-2:00 y Domingos de 13:00 a 12:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView116"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/textView115"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:layout_below="@+id/textView118"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

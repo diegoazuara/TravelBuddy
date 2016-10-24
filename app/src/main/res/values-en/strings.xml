@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TravelBuddy</string>
+    <string name="title_activity_vida_nocturna">Night Life</string>
+    <string name="title_activity_vida_nocturna1">NIGHT LIFE</string>
+    <string name="title_activity_vida_nocturna2"></string>
+    <string name="restaurantes">RESTAURANTS</string>
+    <string name="hoteles">HOTELS</string>
+    <string name="cafeterias">COFFEE SHOP</string>
+    <string name="museos">MUSEUMS</string>
+    <string name="parques">PARKS</string>
+    <string name="hospitales">HOSPITALS</string>
+    <string name="plazasComerciales">MALLS</string>
+    <string name="directorio">DIRECTORY</string>
+</resources>

@@ -35,12 +35,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".bares"
-            android:label="@string/title_activity_bares"
-            android:parentActivityName=".vidaNocturna"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".infoDclub"
             android:label="@string/title_activity_info_dclub"
             android:parentActivityName=".antros"
@@ -143,6 +137,41 @@
             android:name=".infoClassico"
             android:label="@string/title_activity_info_classico"
             android:parentActivityName=".antros"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bares"
+            android:label="@string/title_activity_bares"
+            android:parentActivityName=".vidaNocturna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".srMostachoInfo"
+            android:label="@string/title_activity_sr_mostacho_info"
+            android:parentActivityName=".bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLaMacarena"
+            android:label="@string/title_activity_info_la_macarena"
+            android:parentActivityName=".bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoElCostenito"
+            android:label="@string/title_activity_info_el_costenito"
+            android:parentActivityName=".bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLaClamateria"
+            android:label="@string/title_activity_info_la_clamateria"
+            android:parentActivityName=".bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLaCoqueta"
+            android:label="@string/title_activity_info_la_coqueta"
+            android:parentActivityName=".bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLaShoteria"
+            android:label="@string/title_activity_info_la_shoteria"
+            android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

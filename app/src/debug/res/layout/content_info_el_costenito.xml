@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_el_costenito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.infoElCostenito"
+    tools:showIn="@layout/activity_info_el_costenito">
+
+    <TextView
+        android:text="El Costeñito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView125"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/el_costenito_ed"
+        android:id="@+id/imageView18"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Tiene buen ambiente, la comida es excelente. Ideal para ir por unas cervezas y botanear con los amigos "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/textView127"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/imageView18"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView128"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Lunes a Domindo de 12:00 a 00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView129"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView128"
+        android:layout_alignParentStart="true"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Plaza Paseo Tec, Av. Eugenio Garza Sada #2413"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView130"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView131"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_toStartOf="@+id/button19" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button19"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Direccion:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView130"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/textView129"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
