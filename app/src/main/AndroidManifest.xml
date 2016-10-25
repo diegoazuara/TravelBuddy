@@ -275,9 +275,8 @@
             android:label="@string/title_activity_info_la_shoteria"
             android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
 
-=======
+
         <activity
             android:name=".restaurantes"
             android:label="@string/title_activity_restaurantes"
@@ -343,7 +342,5 @@
             android:label="@string/title_activity_info_mr_pampas"
             android:parentActivityName=".comidaBrasileira"
             android:theme="@style/AppTheme.NoActionBar"></activity>
->>>>>>> origin/master
     </application>
-
 </manifest>

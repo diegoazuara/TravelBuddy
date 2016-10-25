@@ -39,7 +39,6 @@
     <string name="hospitales">HOSPITALES</string>
     <string name="plazasComerciales">PLAZAS COMERCIALES</string>
     <string name="directorio">DIRECTORIO</string>
-<<<<<<< HEAD
     <string name="title_activity_hoteles" />
     <string name="title_activity_info_live_aqua" />
     <string name="title_activity_cinco_estrellas" />
@@ -56,7 +55,7 @@
     <string name="title_activity_info_quality_inn" />
     <string name="title_activity_info_city_express" />
     <string name="title_activity_info_lq_hotel" />
-=======
+
     <string name="title_activity_restaurantes">Restaurantes</string>
     <string name="comida_mexicana">Cocina Mexicana</string>
     <string name="comida_brasileira">Cocina Brasileña</string>
@@ -106,5 +105,4 @@
     <string name="horario_pampas">Lunes a Domingo de 12:00 a 00:00</string>
     <string name="direccion_pampas">Calz. del Valle #400, Del Valle, 66220 San Pedro Garza García, NL</string>
 
->>>>>>> origin/master
 </resources>
