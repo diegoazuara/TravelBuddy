@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_comida_mexicana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.comidaMexicana"
+    tools:showIn="@layout/activity_comida_mexicana">
+
+    <!-- #00cc00, #ff3333 -->
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/luna_mexicana"
+        android:src="@drawable/luna_mexicana"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Luna Mexicana"
+        android:id="@+id/textView2002"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#00cc00"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/luna_mexicana"
+        android:layout_alignBottom="@+id/luna_mexicana"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/luna_mexicana"
+        android:width="190dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/los_frijoles"
+        android:src="@drawable/los_frijoles"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/luna_mexicana"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Los Frijoles"
+        android:id="@+id/textView2003"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#ff3333"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/los_frijoles"
+        android:layout_alignBottom="@+id/los_frijoles"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/los_frijoles"
+        android:width="190dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/san_carlos"
+        android:src="@drawable/san_carlos"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/los_frijoles"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="San Carlos"
+        android:id="@+id/textView2004"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#00cc00"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/san_carlos"
+        android:layout_alignBottom="@+id/san_carlos"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/san_carlos"
+        android:width="190dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/los_cabritos"
+        android:src="@drawable/los_cabritos"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/san_carlos"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Los Cabritos"
+        android:id="@+id/textView2005"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#ff3333"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/los_cabritos"
+        android:layout_alignBottom="@+id/los_cabritos"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/los_frijoles"
+        android:width="190dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/taqueria_juarez"
+        android:src="@drawable/taqueria_juarez"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/los_cabritos"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Taqueria Juarez"
+        android:id="@+id/textView2006"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#00cc00"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/taqueria_juarez"
+        android:layout_alignBottom="@+id/taqueria_juarez"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/taqueria_juarez"
+        android:width="190dp" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/la_jarochita"
+        android:src="@drawable/la_jarochita"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:padding="2dp"
+        android:layout_below="@+id/taqueria_juarez"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="La Jarochita"
+        android:id="@+id/textView2007"
+        android:paddingTop="60dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:background="#ff3333"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/la_jarochita"
+        android:layout_alignBottom="@+id/la_jarochita"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/la_jarochita"
+        android:width="190dp" />
+
+
+</RelativeLayout>
+</ScrollView>

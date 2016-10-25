@@ -39,6 +39,7 @@
     <string name="hospitales">HOSPITALES</string>
     <string name="plazasComerciales">PLAZAS COMERCIALES</string>
     <string name="directorio">DIRECTORIO</string>
+<<<<<<< HEAD
     <string name="title_activity_hoteles" />
     <string name="title_activity_info_live_aqua" />
     <string name="title_activity_cinco_estrellas" />
@@ -55,4 +56,55 @@
     <string name="title_activity_info_quality_inn" />
     <string name="title_activity_info_city_express" />
     <string name="title_activity_info_lq_hotel" />
+=======
+    <string name="title_activity_restaurantes">Restaurantes</string>
+    <string name="comida_mexicana">Cocina Mexicana</string>
+    <string name="comida_brasileira">Cocina Brasileña</string>
+    <string name="title_activity_comida_mexicana">Cocina Mexicana</string>
+    <string name="title_activity_info_luna_mexicana">Luna Mexicana</string>
+    <string name="luna_mexicana_text1">Excelente lugar, buena musica, buena atención y sobre todo se come muy rico.</string>
+    <string name="horario">Horario:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="horario_luna_mex">Lunes a Domingo de 8:00 a 00:00</string>
+    <string name="direccion_luna_mex">Calle Constituyentes de Nuevo Leon 216, Álamos Corregidora, 64590 Monterrey, N.L.</string>
+    <string name="ver_mapa">VER EN MAPA</string>
+    <string name="title_activity_info_los_frijoles">Los Frijoles</string>
+    <string name="los_frijoles_text1">Alegre merendero y bar con terraza y decoración campestre en donde se ofrece buffet de platillos mexicanos.</string>
+    <string name="horario_los_frijoles">Lunes a Domigo de 8:00 a 19:00</string>
+    <string name="direccion_los_frijoles">Calle Albino Espinosa, Centro, 64000 Monterrey, N.L.</string>
+    <string name="title_activity_info_san_carlos">San Carlos</string>
+    <string name="san_carlos_text1">Restaurante familiar con estilo clásico conocido por su carne asada al carbón y su comida regiomontana.</string>
+    <string name="horario_san_carlos">Lunes a Domingo de 7:00 a 00:00</string>
+    <string name="direccion_san_carlos">Av. Ignacio Morones Prieto 2803, Loma Larga, 64710 Monterrey, N.L.</string>
+    <string name="title_activity_info_los_cabritos">Los Cabritos</string>
+    <string name="los_cabritos_text1">Excelente espacio para comer en familia, un deleite el sabor y textura de nuestros platillos.</string>
+    <string name="horario_los_cabritos">Lunes a Domingo de 11:00 a 23:00</string>
+    <string name="direccion_los_cabritos">José Silvestre Aramberri Pte. 1010, Centro, 64000 Monterrey, N.L.</string>
+    <string name="title_activity_info_taqueria_juarez">Taqueria Juarez</string>
+    <string name="taqueria_juarez_text1">Lugar con aire casual que ofrece tacos y antojitos mexicanos para llevar, comer ahí o entregar a domicilio.</string>
+    <string name="horario_taqueria_juarez">Lunes a Domingo de 10:30 a 22:30 </string>
+    <string name="direccion_taqueria_juarez">Calle Galeana 123 Nte, Centro, 64000 Monterrey, NL</string>
+    <string name="title_activity_info_la_jarochita">La Jarochita</string>
+    <string name="la_jarochita_text1">Pequeña casa con colorida decoración en donde se sirven antojitos mexicanos y platillos veracruzanos típicos.</string>
+    <string name="horario_la_jarochita">Lunes a Domingo de 10:00 a 22:00</string>
+    <string name="direccion_la_jarochita">Av. del Estado 386 B, Tecnológico, 64850 Monterrey, N.L.</string>
+    <string name="title_activity_comida_brasileira">Cocina Brasileña</string>
+    <string name="title_activity_info_picanha">Picanha Brasileira</string>
+    <string name="picanha_text1">Un restaurante y bar colorido que cuenta con un menú extenso de platillos brasileños y cócteles creativos.</string>
+    <string name="horario_picanha">Lunes a Domingo de 13:00 a 23:00</string>
+    <string name="direccion_picanha">Sendero Sur 214, Local 1, Plaza heb HEB Contry, Contry, 64860 Monterrey, NL</string>
+    <string name="title_activity_info_vira">Vira Vira</string>
+    <string name="vira_text1">Este restaurante recibe a sus visitantes con un desfile de espadas digno de la realeza, las que exhiben cortes de carne brasileños.</string>
+    <string name="horario_vira">Lunes a Domingo de 12:00 a 23:00</string>
+    <string name="direccion_vira">Galerias Monterrey, Av Insurgentes 2500, Sin Nombre de Col 31, 64620 Monterrey, N.L.</string>
+    <string name="title_activity_info_espadas_brasil">Espadas Brasileñas</string>
+    <string name="espadas_text1">Un lugar agradable para comer , entre semanas tienen promoción para las mujeres, buena selección de carnes y cortes brasileños, y un buen salad bar</string>
+    <string name="horario_espadas">Lunes a Domingo de 12:00 a 23:00</string>
+    <string name="direccion_espadas">Avenida José Vasconcelos 1400, Del Valle, 66220 Monterrey, N.L.</string>
+    <string name="title_activity_info_mr_pampas">Mr. Pampas</string>
+    <string name="pampas_text1">Un lugar casual con decoraciones típicas que ofrece carnes asadas estilo Brasil y barra de ensaladas.</string>
+    <string name="horario_pampas">Lunes a Domingo de 12:00 a 00:00</string>
+    <string name="direccion_pampas">Calz. del Valle #400, Del Valle, 66220 San Pedro Garza García, NL</string>
+
+>>>>>>> origin/master
 </resources>
