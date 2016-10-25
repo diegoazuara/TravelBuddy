@@ -45,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton restaurantes = (ImageButton) findViewById(R.id.restaurants);
+        restaurantes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, restaurantes.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

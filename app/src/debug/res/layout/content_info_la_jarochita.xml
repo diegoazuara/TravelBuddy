@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_la_jarochita"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.infoLaJarochita"
+    tools:showIn="@layout/activity_info_la_jarochita">
+
+    <TextView
+        android:text="La Jarochita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView179"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        android:textColor="#000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/la_jarochita_ed"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView27"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/la_jarochita_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView180"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/imageView27"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView27"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView181"
+        android:textStyle="normal|bold"
+        android:textSize="19sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="@string/horario_la_jarochita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView181"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView182"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="@string/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView182"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView184"
+        android:textStyle="normal|bold"
+        android:textSize="19sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="@string/direccion_la_jarochita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView183"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView184"
+        android:layout_alignParentStart="true"
+        android:textColor="#000" />
+
+    <Button
+        android:text="@string/ver_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button28" />
+</RelativeLayout>

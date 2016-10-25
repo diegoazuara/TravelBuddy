@@ -173,6 +173,71 @@
             android:label="@string/title_activity_info_la_shoteria"
             android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".restaurantes"
+            android:label="@string/title_activity_restaurantes"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comidaMexicana"
+            android:label="@string/title_activity_comida_mexicana"
+            android:parentActivityName=".restaurantes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLunaMexicana"
+            android:label="@string/title_activity_info_luna_mexicana"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLosFrijoles"
+            android:label="@string/title_activity_info_los_frijoles"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoSanCarlos"
+            android:label="@string/title_activity_info_san_carlos"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLosCabritos"
+            android:label="@string/title_activity_info_los_cabritos"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoTaqueriaJuarez"
+            android:label="@string/title_activity_info_taqueria_juarez"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoLaJarochita"
+            android:label="@string/title_activity_info_la_jarochita"
+            android:parentActivityName=".comidaMexicana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comidaBrasileira"
+            android:label="@string/title_activity_comida_brasileira"
+            android:parentActivityName=".restaurantes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoPicanha"
+            android:label="@string/title_activity_info_picanha"
+            android:parentActivityName=".comidaBrasileira"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoVira"
+            android:label="@string/title_activity_info_vira"
+            android:parentActivityName=".comidaBrasileira"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoEspadasBrasil"
+            android:label="@string/title_activity_info_espadas_brasil"
+            android:parentActivityName=".comidaBrasileira"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".infoMrPampas"
+            android:label="@string/title_activity_info_mr_pampas"
+            android:parentActivityName=".comidaBrasileira"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

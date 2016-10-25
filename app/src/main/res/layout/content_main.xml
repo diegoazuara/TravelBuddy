@@ -84,7 +84,8 @@
         android:background="#ff471a"
         android:layout_alignWithParentIfMissing="false"
         android:layout_below="@+id/nocturno"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/restaurants" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -108,7 +109,8 @@
         android:background="#ae3f3f"
         android:layout_alignWithParentIfMissing="false"
         android:layout_above="@+id/museos"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/hoteles" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -174,7 +176,8 @@
         android:id="@+id/hospitales"
         android:src="@drawable/hospitales"
         android:background="#FF3434"
-        android:layout_below="@+id/museos" />
+        android:layout_below="@+id/museos"
+        android:layout_toStartOf="@+id/parques" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -220,7 +223,8 @@
         android:id="@+id/directorio"
         android:src="@drawable/directorio"
         android:background="#259494"
-        android:layout_below="@+id/hospitales" />
+        android:layout_below="@+id/hospitales"
+        android:layout_toStartOf="@+id/plazascomerciales" />
 
     <TextView
         android:layout_width="wrap_content"

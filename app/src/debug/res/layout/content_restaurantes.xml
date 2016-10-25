@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_restaurantes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mario.dispositivosmoviles.restaurantes"
+    tools:showIn="@layout/activity_restaurantes">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/comida_mexicana"
+        android:src="@drawable/comida_mexicana"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comida_mexicana"
+        android:id="@+id/textView2000"
+        android:layout_marginBottom="9dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/comida_mexicana"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/comida_brasileira"
+        android:src="@drawable/comida_brasileira"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_below="@+id/comida_mexicana"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comida_brasileira"
+        android:id="@+id/textView2001"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/comida_brasileira"
+        android:layout_alignStart="@+id/textView2000" />
+
+</RelativeLayout>
