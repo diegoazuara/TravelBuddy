@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info_quality_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.infoQualityInn"
+    tools:showIn="@layout/activity_info_quality_inn">
+
+
+    <TextView
+        android:text="Quality Inn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView215"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/quality_inn_ed"
+        android:id="@+id/imageView31"
+        android:layout_below="@+id/textView215"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Lunes a Domingo. Todos los dias del año."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView218"
+        android:textSize="18sp"
+        android:textColor="#000"
+
+        android:layout_below="@+id/textView217"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Dirección:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView219"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView218"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="Avenida Fundidora y Adolfo Prieto S/N, Obrera, 64010 Monterrey, N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView220"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView219"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button32"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Quality Inn Monterrey La Fe es un hotel de negocios, ejecutivo y familiar, ubicado estratégicamente en Monterrey."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView216"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/imageView31"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView217"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView216"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

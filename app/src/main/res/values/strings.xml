@@ -39,4 +39,20 @@
     <string name="hospitales">HOSPITALES</string>
     <string name="plazasComerciales">PLAZAS COMERCIALES</string>
     <string name="directorio">DIRECTORIO</string>
+    <string name="title_activity_hoteles" />
+    <string name="title_activity_info_live_aqua" />
+    <string name="title_activity_cinco_estrellas" />
+    <string name="title_activity_tres_estrellas" />
+    <string name="title_activity_cuatro_estrellas" />
+    <string name="title_activity_info_fiesta_inn" />
+    <string name="title_activity_info_safi" />
+    <string name="title_activity_info_krystal" />
+    <string name="title_activity_info_holiday_inn" />
+    <string name="title_activity_info_antaris" />
+    <string name="title_activity_info_habita" />
+    <string name="title_activity_info_four_points" />
+    <string name="title_activity_info_best_western" />
+    <string name="title_activity_info_quality_inn" />
+    <string name="title_activity_info_city_express" />
+    <string name="title_activity_info_lq_hotel" />
 </resources>

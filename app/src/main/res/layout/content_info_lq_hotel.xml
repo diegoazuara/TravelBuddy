@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info_lq_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.infoLQHotel"
+    tools:showIn="@layout/activity_info_lq_hotel">
+
+
+    <TextView
+        android:text="La Quinta Hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView301"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/lq_hotel_ed"
+        android:id="@+id/imageView32"
+        android:layout_below="@+id/textView301"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView303"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView302"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Lunes a Domingo. Todos los dias del año."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView304"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_below="@+id/textView303"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Dirección:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView305"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView304"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text=" Av. Fidel Velazquez #3000 Col. Central, Central, Fidel Velazquez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView186"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView305"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:text="LQ hotel por el hotel La Quinta Monterrey Norte cuenta con elegantes habitaciones, un completo restaurante del hotel "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView302"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageView32"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button34"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

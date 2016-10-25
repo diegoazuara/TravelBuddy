@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.hoteles"
+    tools:showIn="@layout/activity_hoteles">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/cinco_estrellas"
+        android:src="@drawable/cinco_estrellas"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinco Estrellas"
+        android:id="@+id/textView114"
+        android:layout_marginBottom="31dp"
+        android:layout_alignBottom="@+id/cinco_estrellas"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/cuatro_estrellas"
+        android:src="@drawable/cuatro_estrellas"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_below="@+id/cinco_estrellas"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuatro Estrellas"
+        android:id="@+id/textView115"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/cuatro_estrellas"
+        android:layout_marginBottom="31dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/tres_estrellas"
+        android:src="@drawable/tres_estrellas"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_below="@+id/cuatro_estrellas"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tres Estrellas"
+        android:id="@+id/textView116"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/tres_estrellas"
+        android:layout_marginBottom="31dp"/>
+
+
+
+
+</RelativeLayout>
