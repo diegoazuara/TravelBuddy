@@ -63,6 +63,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton museos = (ImageButton) findViewById(R.id.museos);
+        museos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, museos.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 

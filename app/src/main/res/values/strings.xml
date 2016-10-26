@@ -104,5 +104,11 @@
     <string name="pampas_text1">Un lugar casual con decoraciones típicas que ofrece carnes asadas estilo Brasil y barra de ensaladas.</string>
     <string name="horario_pampas">Lunes a Domingo de 12:00 a 00:00</string>
     <string name="direccion_pampas">Calz. del Valle #400, Del Valle, 66220 San Pedro Garza García, NL</string>
+    <string name="title_activity_museos" />
+    <string name="title_activity_museo_del_acero" />
+    <string name="title_activity_museo_de_historia" />
+    <string name="title_activity_marco" />
+    <string name="title_activity_museo_del_noreste" />
+    <string name="title_activity_planetario_alfa" />
 
 </resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info_museo_del_acero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.infoMuseoDelAcero"
+    tools:showIn="@layout/activity_info_museo_del_acero">
+
+
+    <TextView
+        android:text="Museo Del Acero - Horno 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4006"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/museo_del_acero_ed"
+        android:id="@+id/imageView100"
+        android:layout_below="@+id/textView4006"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4008"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView4007"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Marte, miercoles, jueves: 10am - 6pm            Viernes, sábado y domingo: 11am - 7pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4009"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_below="@+id/textView4008"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Dirección:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4010"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView4009"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:text="Avenida Fundidora y Adolfo Prieto S/N, Obrera, 64010 Monterrey, N.L."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4011"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4010"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button35"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Centro Interactivo de Ciencia, que promueve la educación científica y tecnológica entre los niños y jóvenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4007"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageView100"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

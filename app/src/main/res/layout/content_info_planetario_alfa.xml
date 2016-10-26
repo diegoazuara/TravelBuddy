@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info_planetario_alfa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mario.dispositivosmoviles.infoPlanetarioAlfa"
+    tools:showIn="@layout/activity_info_planetario_alfa">
+
+
+    <TextView
+        android:text="Planetario Alfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4030"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Horario:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4032"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView4031"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Marte, miercoles, jueves, viernes: 2:30pm - 7pm                        Sabado,domingo: 10:30am - 7pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4033"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_below="@+id/textView4032"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Dirección:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4034"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView4033"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/planetario_alfa_ed"
+        android:id="@+id/imageView105"
+        android:layout_below="@+id/textView4030"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Avenida Roberto Garza Sada 1000, Carrizalejo, 66254 San Pedro Garza García, NL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4035"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView4034"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="VER EN MAPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button38"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Es un conjunto de Museo, Observatorio Astronómico y sala IMAX Dome."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4031"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView105"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

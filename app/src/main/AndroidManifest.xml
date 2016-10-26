@@ -342,5 +342,42 @@
             android:label="@string/title_activity_info_mr_pampas"
             android:parentActivityName=".comidaBrasileira"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".museos"
+            android:label="@string/title_activity_museos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".infoMuseoDelAcero"
+            android:label="@string/title_activity_museo_del_acero"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".infoMuseoDeHistoria"
+            android:label="@string/title_activity_museo_de_historia"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".infoMarco"
+            android:label="@string/title_activity_marco"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".infoMuseoDelNoreste"
+            android:label="@string/title_activity_museo_del_noreste"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".infoPlanetarioAlfa"
+            android:label="@string/title_activity_planetario_alfa"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 </manifest>
