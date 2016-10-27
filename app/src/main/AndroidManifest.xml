@@ -372,10 +372,49 @@
             android:name=".HospitalDoctor"
             android:label="@string/doctor"
             android:parentActivityName=".Hospitales" />
-        <activity android:name=".HospitalUni" />
-        <activity android:name=".Parques"
+        <activity
+            android:name=".HospitalUni"
+            android:label="@string/uni"
+            android:parentActivityName=".Hospitales" />
+        <activity
+            android:name=".Parques"
             android:label="@string/parques"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ParqueFundidora"
+            android:label="@string/fundidora"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueChipinque"
+            android:label="@string/chipinque"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueBioparque"
+            android:label="@string/bioparque"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueEstanzuela"
+            android:label="@string/estanzuela"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParquePastora"
+            android:label="@string/pastora"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueNinosHeroes"
+            android:label="@string/nheroes"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueEspana"
+            android:label="@string/espana"
+            android:parentActivityName=".Parques" />
+        <activity
+            android:name=".ParqueCaballo"
+            android:label="@string/caballo"
+            android:parentActivityName=".Parques" />
+        <activity android:name=".ParqueHuasteca"
+            android:label="@string/huasteca"
+            android:parentActivityName=".Parques"></activity>
     </application>
 
 </manifest>

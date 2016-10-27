@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_parque_chipinque"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:orientation="vertical"
+        tools:context="com.example.oscar.trabelbuddy.ParqueChipinque">
+
+        <TextView
+            android:text="Parque Ecologico Chipinque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView16"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            app:srcCompat="@drawable/parque_chipinque1"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView"
+            android:layout_alignBottom="@+id/textView25"
+            android:paddingBottom="40dp"
+            android:layout_height="265dp" />
+
+        <TextView
+            android:text="@string/chipinque_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_above="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="64dp"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:text="@string/direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:text="@string/chipinque_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp" />
+
+        <TextView
+            android:text="@string/horario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:layout_above="@+id/textView22"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/chipinque_horario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_above="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="19dp" />
+
+        <Button
+            android:text="VER EN MAPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:id="@+id/buttonChipinque"
+            />
+
+    </LinearLayout>
+</ScrollView>

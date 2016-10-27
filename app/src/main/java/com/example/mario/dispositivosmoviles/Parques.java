@@ -49,39 +49,39 @@ public class Parques extends AppCompatActivity {
                 //Toast.makeText(getApplicationContext(), "posicion " + (i + 1) + personas[i], Toast.LENGTH_SHORT).show();
                 switch (posicion) {
                     case 0 :
-                        Intent ii = new Intent(getApplicationContext(), Parques.class);
+                        Intent ii = new Intent(getApplicationContext(), ParqueFundidora.class);
                         startActivity(ii);
                         break;
                     case 1 :
-                        Intent iii = new Intent(getApplicationContext(), Parques.class);
+                        Intent iii = new Intent(getApplicationContext(), ParqueChipinque.class);
                         startActivity(iii);
                         break;
                     case 2 :
-                        Intent xii = new Intent(getApplicationContext(), Parques.class);
+                        Intent xii = new Intent(getApplicationContext(), ParqueBioparque.class);
                         startActivity(xii);
                         break;
                     case 3 :
-                        Intent lii = new Intent(getApplicationContext(), Parques.class);
+                        Intent lii = new Intent(getApplicationContext(), ParqueEstanzuela.class);
                         startActivity(lii);
                         break;
                     case 4 :
-                        Intent aii = new Intent(getApplicationContext(), Parques.class);
+                        Intent aii = new Intent(getApplicationContext(), ParquePastora.class);
                         startActivity(aii);
                         break;
                     case 5 :
-                        Intent ai = new Intent(getApplicationContext(), Parques.class);
+                        Intent ai = new Intent(getApplicationContext(), ParqueNinosHeroes.class);
                         startActivity(ai);
                         break;
                     case 6 :
-                        Intent rxx = new Intent(getApplicationContext(), Parques.class);
+                        Intent rxx = new Intent(getApplicationContext(), ParqueEspana.class);
                         startActivity(rxx);
                         break;
                     case 7 :
-                        Intent jxx = new Intent(getApplicationContext(), Parques.class);
+                        Intent jxx = new Intent(getApplicationContext(), ParqueCaballo.class);
                         startActivity(jxx);
                         break;
                     case 8 :
-                        Intent jx = new Intent(getApplicationContext(), Parques.class);
+                        Intent jx = new Intent(getApplicationContext(), ParqueHuasteca.class);
                         startActivity(jx);
                         break;
                     default:
