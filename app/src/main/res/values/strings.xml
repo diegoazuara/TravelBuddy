@@ -110,5 +110,61 @@
     <string name="title_activity_marco" />
     <string name="title_activity_museo_del_noreste" />
     <string name="title_activity_planetario_alfa" />
+    <string name="croja">Cruz Roja</string>
+    <string name="croja_direccion">Ave. Alfonso Reyes 2503 Nte. Col. Del Prado, Monterrey</string>
+    <string name="croja_info">Ofrecer atención eficiente a la población en casos de emergencia y en situaciones de desastre, e impulsar acciones tendientes a incrementar la capacidad de las personas y las comunidades a través de la acción voluntaria.</string>
+    <string name="oca">Hospital Oca</string>
+    <string name="oca_direccion">Avenida José María Pino Suárez, 645 Monterrey</string>
+    <string name="oca_info">Somos un hospital privado de tercer nivel con sede en la ciudad de Monterrey, con más de 40 años de experiencia en el sector. Actualmente figuramos entre los hospitales más grandes y de mayor prestigio en el país.</string>
+    <string name="doctor">Doctor Hospital</string>
+    <string name="doctor_direccion">Calle Ecuador 2331, Balcones de Galerías, 64620 Monterrey, N.L.</string>
+    <string name="doctor_info">Doctors Hospital es reconocido como uno de los mejores hospitales privados en la ciudad de Monterrey, con servicios médicos de calidad mundial y tecnología de vanguardia, dedicados principalmente a brindarle una atención inigualable a usted y a su familia</string>
+    <string name="imss">IMSS</string>
+    <string name="imss_direcion">F. LOZANO Y ROBLE COL. BENITO JUÁREZ C.P. 64420 MONTERREY NUEVO LEÓN</string>
+    <string name="imss_info">El IMSS, es la institución con mayor presencia en la atención a la salud y en la protección social de los mexicanos desde su fundación en 1943, para ello, combina la investigación y la práctica médica, con la administración de los recursos para el retiro de sus asegurados, para brindar tranquilidad y estabilidad a los trabajadores y sus familias, ante cualquiera de los riesgos especificados en la Ley del Seguro Social. Hoy en día, más de la mitad de la población mexicana, tiene algo que ver con el Instituto, hasta ahora, la más grande en su género en América Latina</string>
+    <string name="uni">Hospital Universitario</string>
+    <string name="hospitales_horario">Todo el dia</string>
+    <string name="uni_direccion">Av. Francisco I. Madero S/N, Mitras Centro, 64460 Monterrey, N.L.</string>
+    <string name="uni_info">Somos una Institución Hospitalaria al servicio de la sociedad, perteneciente a la Facultad de Medicina de la Universidad Autónoma de Nuevo León; a través de la cual brindamos servicios asistenciales con referencia a estándares de internacionales calidad y seguridad del paciente; proporcionados por profesionales de la salud con una sólida formación científica continua, tecnología de vanguardia, actuando con sentido altruista y en función de la enseñanza y la investigación.</string>
+    <string name="chipinque">Parque Ecologico Chipinque</string>
+    <string name="chipinque_horario">Lunes a Domingo de 6:00 a 20:00 </string>
+    <string name="chipinque_direccion">Carretera a Chipinque Km. 2.5, San Pedro Garza García, N.L.
+Monterrey</string>
+    <string name="chipinque_info">Chipinque es uno de los pasajes naturales más importantes de la región por su cercanía a la ciudad de Monterrey y por los atractivos y servicios que ofrece. El Parque Ecológico Chipinque es un Área Natural Protegida</string>
+    <string name="fundidora">Parque Fundidora</string>
+    <string name="fundidora_horario">Lunes a Domingo de 6:00 a 22:00 horas</string>
+    <string name="fundidora_direccion">Ave. Fundidora y Adolfo Prieto s/n Col. Obrera; Monterrey, Nuevo León</string>
+    <string name="fundidora_info">Brindamos a los visitantes diversas áreas destinadas para el descanso, la recreación y la convivencia, brindando un espacio para realizar actividades multifacéticas como el deporte y el entretenimiento, así como actividades económicas, culturales y eventos de todo tipo, que son el eje para el desarrollo y esparcimiento de las personas</string>
+    <string name="bioparque">Bioparque Estrella</string>
+    <string name="bioparque_horario">Lunes a Domingo de 10:00 a 18:00</string>
+    <string name="bioparque_direccion">Morones Prieto 1100, COL. Nuevo Repueblo, Monterrey Nuevo León</string>
+    <string name="bioparque_info">Somos un parque temático que cuenta con un gran safari y varias atracciones</string>
+    <string name="estanzuela">Parque la Estanzuela</string>
+    <string name="estanzuela_horario">Miercoles a Domingo de 7:00 a 17:30</string>
+    <string name="estanzuela_direccion">Camino a Valle Alto s/n La Estanzuela, Monterrey, Nuevo León</string>
+    <string name="estanzuela_info">En este parque puedes disfrutar con tu familia de la naturaleza rodeado de cañones y arroyos, además es un espacio ideal para la observación de flora y fauna silvestre. Este lugar se encuentra dentro del polígono del Parque Nacional "Cumbres de Monterrey" muy cerca del Área Metropolitana de Monterrey. </string>
+    <string name="pastora">Parque la Pastora</string>
+    <string name="pastora_horario">Verano: Martes a domingo de 9:00 a 17:45
+Invierno: Martes a domingo de 9:00 a 17:00</string>
+    <string name="pastora_direccion"> Av. Pablo Livas s/n Col. Jardines de La Pastora; Guadalupe, Nuevo León </string>
+    <string name="pastora_info">Disfruta junto con tu familia de un lugar con un ambiente fresco y tranquilo, podrás recorrer áreas como el herpetario, la jaula de vuelo, el aviario, la pradera africana, y además admirarás 118 especies y más de 624 animales que se exhiben en espacios naturales muy acordes con su ambiente original.</string>
+    <string name="nheroes">Parque Niños Heroes</string>
+    <string name="nheroes_horario">Martes a Domingo de 9:00 a 18:00</string>
+    <string name="nheroes_direccion">Av. Alfonso Reyes 1000, Col. Regina</string>
+    <string name="nheroes_info">Se encuentra ubicado en los terrenos del campo militar, que cedió en el año de 1985 su espacio, edificios y jardines para formar lo que hoy es el Parque niños héroes. Sus instalaciones proporcionan al visitante no solo recreación en sus amplias áreas verdes y lagos, sino también cultura y educación en los museos. Para los deportistas, el parque Niños Héroes posee el mejor marco para la practica del deporte recreativo o de alta competencia.</string>
+    <string name="espana">Parque España</string>
+    <string name="espana_direccion"> Avenida Morones Prieto a 2 cuadras de Av revolución (frente a la Fundidora).</string>
+    <string name="espana_horario">Lunes a Domingo de 10:00 a 22:00</string>
+    <string name="espana_info">El Parque España cuenta con una área considerable para que los Regiomontanos y sus visitantes puedan disfrutar de un día agradable en compañía de sus familias proporcionando a sus visitantes diferentes atractivos_turisticos, dentro de los cuales destacan las albercas, Juegos Mecánicos, además de contar con una área de restaurantes, donde los visitantes podrán adquirir antojitos mexicanos a precios muy bajos para así poder disfrutar las instalaciones. </string>
+    <string name="caballo">Parque Ecologico Cola de Caballo</string>
+    <string name="caballo_horario">Lunes a Domingo de 9:00 a 18:00</string>
+    <string name="caballo_direccion">Carretera a Villas de García S/N, Parque Grutas de García, N.L. García</string>
+    <string name="caballo_info">El parque recibe su nombre gracias a la cascada Cola de Caballo de 25 m de altura y que asemeja una cola de caballo. La misma se forma con aguas que bajan de la Sierra Madre Oriental. 
+El lugar es parte del Parque Nacional Cumbres de Monterrey y cuenta con diversos servicios, entre ellos: estacionamiento, restaurantes y áreas verdes. </string>
+    <string name="huasteca">Parque La Huasteca</string>
+    <string name="huasteca_horario">Lunes a viernes de 9:00 a 17:00 horas</string>
+    <string name="huasteca_direccion">Entrada al Cañón de la Huasteca; Santa Catarina, Nuevo León</string>
+    <string name="huasteca_info">La Huasteca es un parque ecológico ubicado en el municipio de Santa Catarina en el estado de Nuevo León, dentro del área metropolitana de la ciudad de Monterrey. Se encuentra enclavado entre la Sierra Madre Oriental, con grandes formaciones montañosas y rocosas, y forma parte del Parque Nacional Cumbres de Monterrey.
+El lugar se encuentra en el paso natural del Río Santa Catarina y se ha acondicionado una pequeña parte del área para hacer un foro donde se llevan a cabo eventos artísticos, culturales y deportivos.</string>
 
 </resources>

@@ -64,100 +64,84 @@
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".cincoEstrellas"
             android:label="@string/title_activity_cinco_estrellas"
             android:parentActivityName=".hoteles"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".cuatroEstrellas"
             android:label="@string/title_activity_cuatro_estrellas"
             android:parentActivityName=".hoteles"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".tresEstrellas"
             android:label="@string/title_activity_tres_estrellas"
             android:parentActivityName=".hoteles"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoLiveAqua"
             android:label="@string/title_activity_info_live_aqua"
             android:parentActivityName=".cincoEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoFiestaInn"
             android:label="@string/title_activity_info_fiesta_inn"
             android:parentActivityName=".cincoEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoSafi"
             android:label="@string/title_activity_info_safi"
             android:parentActivityName=".cincoEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoKrystal"
             android:label="@string/title_activity_info_krystal"
             android:parentActivityName=".cincoEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoHolidayInn"
             android:label="@string/title_activity_info_holiday_inn"
             android:parentActivityName=".cuatroEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoAntaris"
             android:label="@string/title_activity_info_antaris"
             android:parentActivityName=".cuatroEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoHabita"
             android:label="@string/title_activity_info_habita"
             android:parentActivityName=".cuatroEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoFourPoints"
             android:label="@string/title_activity_info_four_points"
             android:parentActivityName=".cuatroEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoBestWestern"
             android:label="@string/title_activity_info_best_western"
             android:parentActivityName=".tresEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoQualityInn"
             android:label="@string/title_activity_info_quality_inn"
             android:parentActivityName=".tresEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoCityExpress"
             android:label="@string/title_activity_info_city_express"
             android:parentActivityName=".tresEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoLQHotel"
             android:label="@string/title_activity_info_lq_hotel"
             android:parentActivityName=".tresEstrellas"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".plazasComerciales"
             android:label="@string/title_activity_plazas_comerciales"
@@ -263,20 +247,16 @@
             android:label="@string/title_activity_info_la_clamateria"
             android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoLaCoqueta"
             android:label="@string/title_activity_info_la_coqueta"
             android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoLaShoteria"
             android:label="@string/title_activity_info_la_shoteria"
             android:parentActivityName=".bares"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
         <activity
             android:name=".restaurantes"
             android:label="@string/title_activity_restaurantes"
@@ -341,43 +321,58 @@
             android:name=".infoMrPampas"
             android:label="@string/title_activity_info_mr_pampas"
             android:parentActivityName=".comidaBrasileira"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".museos"
             android:label="@string/title_activity_museos"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoMuseoDelAcero"
             android:label="@string/title_activity_museo_del_acero"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoMuseoDeHistoria"
             android:label="@string/title_activity_museo_de_historia"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoMarco"
             android:label="@string/title_activity_marco"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoMuseoDelNoreste"
             android:label="@string/title_activity_museo_del_noreste"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".infoPlanetarioAlfa"
             android:label="@string/title_activity_planetario_alfa"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity
+            android:name=".Hospitales"
+            android:label="@string/hospitales"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HospitalCroja"
+            android:label="@string/croja"
+            android:parentActivityName=".Hospitales" />
+        <activity
+            android:name=".HospitalImss"
+            android:label="@string/imss"
+            android:parentActivityName=".Hospitales" />
+        <activity
+            android:name=".HospitalOca"
+            android:label="@string/oca"
+            android:parentActivityName=".Hospitales" />
+        <activity
+            android:name=".HospitalDoctor"
+            android:label="@string/doctor"
+            android:parentActivityName=".Hospitales" />
+        <activity android:name=".HospitalUni"></activity>
     </application>
+
 </manifest>

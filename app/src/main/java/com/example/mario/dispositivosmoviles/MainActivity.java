@@ -71,8 +71,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
+        ImageButton hospitales = (ImageButton) findViewById(R.id.hospitales);
+        hospitales.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Hospitales.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
