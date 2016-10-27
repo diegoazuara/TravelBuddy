@@ -372,7 +372,10 @@
             android:name=".HospitalDoctor"
             android:label="@string/doctor"
             android:parentActivityName=".Hospitales" />
-        <activity android:name=".HospitalUni"></activity>
+        <activity android:name=".HospitalUni" />
+        <activity android:name=".Parques"
+            android:label="@string/parques"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

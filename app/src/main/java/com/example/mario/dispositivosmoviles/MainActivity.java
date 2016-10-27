@@ -79,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ImageButton parques = (ImageButton) findViewById(R.id.parques);
+        parques.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Parques.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
