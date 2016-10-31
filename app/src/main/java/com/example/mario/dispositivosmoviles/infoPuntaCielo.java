@@ -30,7 +30,6 @@ public class infoPuntaCielo extends AppCompatActivity {
                                                 startActivity(intent);
                                             }
                                         }
-
         );
     }
 
