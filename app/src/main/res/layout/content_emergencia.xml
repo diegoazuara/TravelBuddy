@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_emergencia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context="com.example.mario.dispositivosmoviles.emergencias"
+    tools:showIn="@layout/activity_emergencia">
+
+    <TextView
+        android:text="Telefonos de Emergencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:id="@+id/textView119"
+        android:textStyle="normal|bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <TextView
+    android:text="Cruz Roja"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="26dp"
+    android:id="@+id/cruz_roja"
+    android:textSize="24sp"
+    android:textStyle="normal|bold"
+    android:layout_below="@+id/textView119"
+    android:layout_alignParentStart="true"
+    android:layout_alignEnd="@+id/tel_cruz_roja"
+    android:textAlignment="center"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Tel. 1477-1477"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_cruz_roja"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/cruz_roja"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <TextView
+        android:text="Centro Estatal de Emergencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/centro_emergencias"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/tel_cruz_roja"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja" />
+
+    <TextView
+        android:text="Tel. 066"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_centro_emergencias"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/centro_emergencias"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <Button
+        android:text="Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llamar_cruz_roja"
+        android:layout_marginEnd="28dp"
+        android:textColor="#000"
+        android:layout_above="@+id/centro_emergencias"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:text="Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llamar_centro_emergencias"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/tel_centro_emergencias"
+        android:layout_alignEnd="@+id/llamar_cruz_roja"
+        android:layout_toEndOf="@+id/centro_emergencias" />
+
+    <TextView
+        android:text="Cuerpo de Bomberos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/bomberos"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/tel_centro_emergencias"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja" />
+
+
+    <TextView
+        android:text="Tel. 8342-0053"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_bomberos"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/bomberos"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <Button
+        android:text="Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llamar_bomberos"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/tel_bomberos"
+        android:layout_toEndOf="@+id/bomberos" />
+
+    <TextView
+        android:text="Proteccion Civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/civil"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_below="@+id/tel_bomberos"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja" />
+
+
+    <TextView
+        android:text="Tel. 8343-1116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_civil"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/civil"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/llamar_cruz_roja"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <Button
+        android:text="Llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llamar_civil"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/tel_civil"
+        android:layout_toEndOf="@+id/civil" />
+
+</RelativeLayout>

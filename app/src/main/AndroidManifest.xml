@@ -3,6 +3,7 @@
     package="com.example.mario.dispositivosmoviles">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -415,6 +416,35 @@
         <activity android:name=".ParqueHuasteca"
             android:label="@string/huasteca"
             android:parentActivityName=".Parques"></activity>
+
+        <activity
+            android:name=".directorio"
+            android:label="@string/directorio"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".emergencias"
+            android:label="emergencias"
+            android:parentActivityName=".directorio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".servicios"
+            android:label="servicios"
+            android:parentActivityName=".directorio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".bancos"
+            android:label="bancos"
+            android:parentActivityName=".directorio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>
