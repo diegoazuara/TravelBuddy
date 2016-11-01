@@ -69,4 +69,36 @@
     <string name="ver_mapa">SEE IN MAP</string>
     <string name="antros">Night Clubs</string>
     <string name="bares">Pubs</string>
+
+
+    <string name="direccion1">Address:</string>
+    <string name="horariopalabra">Open:</string>
+    <string name="boton">SEE ON MAP</string>
+
+    <string name="thenada_horario">Monday - Sunday from 9:00am to 10:00pm</string>
+    <string name="thenada_descripcion">A somewhat loquacious cafeteria and fodonga, which is becoming the place of brunch. Their menu goes beyond a simple coffee and its atmosphere is the sensation.</string>
+
+    <string name="tierralibre_horario">Tuesday - Sunday from 1:00pm to 10:00pm</string>
+    <string name="tierralibre_descripcion">Coffee and juices accompanied by sandwiches and salads in a warm atmosphere with local art.</string>
+
+    <string name="galeriacafe_horario">Tuesday - Sunday from 5:00pm to 12:00am</string>
+    <string name="galeriacafe_descripcion">Cafeteria with extensive range of drinks. Quiet atmosphere. Specialty on pastas and crepes.</string>
+
+    <string name="puntacielo_horario">Monday - Sunday from 8:00am to 6:00pm</string>
+    <string name="puntacielo_descripcion">Cafeteria with nice and modern concept, franchisees with good atmosphere, and nationally recognized product quality.</string>
+
+
+    <string name="plazacumbres_horario">Monday - Sunday from 11:00am to 9:00pm</string>
+    <string name="plazacumbres_descripcion">Mall with more than 120 locals for specialty stores and more than 2,200 parking spaces</string>
+
+    <string name="nuevosur_horario">Monday - Sunday from 9:00pm to 12:00am</string>
+    <string name="nuevosur_descripcion">Outdoor shopping center located south of Monterrey. It has more than 90 commercial doors between various shops, restaurants, green spaces, and more.</string>
+
+    <string name="sanagustin_horario">Monday - Sunday de 9:00pm a 12:00am</string>
+    <string name="sanagustin_descripcion">It is one of the largest malls in Mexico, founded in 1988, has grown to include shops and department stores dedicated to over 150 commercial activities.</string>
+
+    <string name="valleoriente_horario">Monday - Sunday from 10:00am to 9:00pm</string>
+    <string name="valleoriente_descripcion">Shopping center in Monterrey, Mexico. The architect for the project was Marcos Suberville. Opened in 2003. The promoter was U-Calli Group.</string>
+
+
 </resources>

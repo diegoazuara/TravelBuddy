@@ -209,4 +209,27 @@ El lugar se encuentra en el paso natural del Río Santa Catarina y se ha acondic
 
     <string name="antros">Antros</string>
     <string name="bares">Bares</string>
+
+    <string name="direccion1">Dirección:</string>
+    <string name="horariopalabra">Horario:</string>
+    <string name="boton">VER EN MAPA</string>
+    <string name="thenada_horario">Lunes a Domingo de 9:00am a 10:00pm</string>
+    <string name="thenada_descripcion">Una cafetería un tanto locuaz y fodonga, que se esta volviendo el lugar del brunch. Su menú va más allá de un simple cafesito y su ambientación es la sensación.</string>
+    <string name="tierralibre_horario">Martes a Domingo de 1:00pm a 10:00pm</string>
+    <string name="tierralibre_descripcion">Café y jugos naturales acompañados de sándwiches y ensaladas en un artístico local con atmósfera cálida.</string>
+    <string name="galeriacafe_horario">Martes a Domingo de 5:00pm a 12:00am</string>
+    <string name="galeriacafe_descripcion">Cafetería con extensa variedad de bebidas. Ambiente tranquilo. Especialidad en pastas y crepas.</string>
+    <string name="puntacielo_horario">Lunes a Domingo de 8:00am a 6:00pm</string>
+    <string name="puntacielo_descripcion">Cafetería con concepto bonito y moderno, franquicias con buen ambiente y producto de calidad reconocido nacionalmente.</string>
+    <string name="plazacumbres_horario">Lunes a Domingo de 11:00am a 9:00pm</string>
+    <string name="plazacumbres_descripcion">Plaza con más de 120 locales destinados a tiendas de especialidad y más de 2,200 cajones de estacionamiento.</string>
+    <string name="nuevosur_horario">Lunes a Domingo de 9:00pm a 12:00am</string>
+    <string name="nuevosur_descripcion">Centro Comercial al aire libre ubicado al Sur de Monterrey. Cuenta con más de 90 puertas comerciales entre diversas tiendas, restaurantes, espacios verdes, etcétera.</string>
+    <string name="sanagustin_horario">Lunes a Domingo de 9:00pm a 12:00am</string>
+    <string name="sanagustin_descripcion">Es una de las plazas más grandes de México, fundada en 1988, ha crecido hasta incluir a tiendas y grandes almacenes dedicados a más de 150 actividades comerciales.</string>
+    <string name="valleoriente_horario">Lunes a Domingo de 10:00am a 9:00pm</string>
+    <string name="valleoriente_descripcion">Centro comercial en Monterrey, México. El arquitecto encargado del proyecto fue Marcos Suberville. Se abrió en 2003. El promotor fue Grupo U-Calli.</string>
+
+
+
 </resources>
