@@ -39,7 +39,7 @@
         android:layout_marginBottom="30dp"/>
 
     <TextView
-        android:text="Dirección:"
+        android:text="@string/direccion1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView74"
@@ -51,7 +51,7 @@
         android:layout_marginBottom="42dp"/>
 
     <TextView
-        android:text="Lunes a Domingo de 8:00am a 6:00pm"
+        android:text="@string/puntacielo_horario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView75"
@@ -62,7 +62,7 @@
         android:layout_marginBottom="19dp"/>
 
     <TextView
-        android:text="Horario:"
+        android:text="@string/horariopalabra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView76"
@@ -73,7 +73,7 @@
         android:layout_alignParentStart="true"/>
 
     <TextView
-        android:text="Cafetería con concepto bonito y moderno, franquicias con buen ambiente y producto de calidad reconocido nacionalmente."
+        android:text="@string/puntacielo_descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView77"
@@ -95,12 +95,11 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button10"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
-
 
 </RelativeLayout>

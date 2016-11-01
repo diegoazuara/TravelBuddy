@@ -40,7 +40,7 @@
         android:layout_marginBottom="27dp"/>
 
     <TextView
-        android:text="Dirección:"
+        android:text="@string/direccion1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView44"
@@ -53,7 +53,7 @@
         android:layout_marginBottom="65dp"/>
 
     <TextView
-        android:text="Lunes a Domingo de 9:00pm a 12:00am"
+        android:text="@string/sanagustin_horario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView45"
@@ -64,7 +64,7 @@
         android:layout_marginBottom="19dp"/>
 
     <TextView
-        android:text="Horario:"
+        android:text="@string/horariopalabra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView46"
@@ -75,7 +75,7 @@
         android:layout_alignParentStart="true"/>
 
     <TextView
-        android:text="Es una de las plazas más grandes de México, fundada en 1988, ha crecido hasta incluir a tiendas y grandes almacenes dedicados a más de 150 actividades comerciales."
+        android:text="@string/sanagustin_descripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView47"
@@ -96,7 +96,7 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button5"
