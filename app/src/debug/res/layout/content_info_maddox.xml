@@ -24,40 +24,8 @@
         android:textSize="22sp"
         android:textStyle="normal|bold" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/maddox_ed"
-        android:id="@+id/imageView10"
-        android:layout_marginBottom="171dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
-        android:text="Espacio amplio con luces coloridas para bailar excelente música de DJs."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="59dp"
-        android:id="@+id/textView79"
-        android:textSize="18sp"
-        android:textColor="#000"
-        android:layout_alignBottom="@+id/imageView10"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Horario:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView10"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="14dp"
-        android:id="@+id/textView80"
-        android:textSize="20sp"
-        android:textColor="#000"
-        android:textStyle="normal|bold" />
-
-    <TextView
-        android:text="Jueves a Sabado de 9:00pm a 2:00am"
+        android:text="@string/horario_maddox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView80"
@@ -68,7 +36,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Direccion:"
+        android:text="@string/direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView81"
@@ -80,7 +48,7 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="Av. del Roble #300 Oriente Local 4,5 y 6  Col. Valle del Campestre. San Pedro Garza García, C.P. 66265"
+        android:text="@string/direccion_maddox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView82"
@@ -90,10 +58,41 @@
         android:textColor="#000" />
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/ver_mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button11"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView80"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="137dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/maddox_ed"
+        android:id="@+id/imageView10"
+        android:layout_above="@+id/textView81"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:text="@string/maddox_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView79"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_alignBottom="@+id/imageView10"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
