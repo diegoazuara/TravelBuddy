@@ -28,28 +28,7 @@
         android:textAlignment="center" />
 
     <TextView
-        android:text="Espacio amplio con techo alto, luces coloridas y paredes de ladrillo y madera para bailar música de DJs."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView25"
-        android:textColor="#000"
-        android:textSize="18sp"
-        android:layout_marginBottom="28dp"
-        android:paddingBottom="20dp"
-        android:layout_above="@+id/textView21"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dclub_ed"
-        android:id="@+id/imageView"
-        android:layout_alignBottom="@+id/textView25"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="19dp" />
-
-    <TextView
-        android:text="Horario:"
+        android:text="@string/horario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView21"
@@ -60,7 +39,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Jueves a Sabado de 9:00pm a 2:00am"
+        android:text="@string/horario_dclub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView22"
@@ -71,7 +50,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Del Valle, 66220 N.L."
+        android:text="@string/direccion_dclub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView24"
@@ -82,7 +61,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Dirección:"
+        android:text="@string/direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView23"
@@ -93,11 +72,32 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/ver_mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/dclub_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:layout_above="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dclub_ed"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/textView21"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

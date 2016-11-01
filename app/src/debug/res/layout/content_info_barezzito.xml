@@ -34,7 +34,7 @@
         android:layout_marginTop="17dp" />
 
     <TextView
-        android:text="¡Música en vivo, el mejor ambiente, sushi y mucho mas! ¡Aprovecha las promociones que se manejan entre semana!"
+        android:text="@string/barezzito_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="191dp"
@@ -45,7 +45,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Horario:"
+        android:text="@string/horario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="53dp"
@@ -57,7 +57,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Martes a Domingo de 9:00pm a 2:00am"
+        android:text="@string/horario_barezzito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView104"
@@ -67,7 +67,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Direccion:"
+        android:text="@string/direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView105"
@@ -79,7 +79,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Av. Eugenio Garza Sada 2408 Paseo TEC 2"
+        android:text="@string/direccion_barezzito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView106"
@@ -89,7 +89,7 @@
         android:textColor="#000" />
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/ver_mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

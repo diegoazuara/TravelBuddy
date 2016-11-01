@@ -54,6 +54,15 @@ public class bares extends AppCompatActivity {
             }
         });
 
+        ImageButton la_coqueta = (ImageButton) findViewById(R.id.la_coqueta);
+        la_coqueta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(bares.this, infoLaCoqueta.class);
+                startActivity(intent);
+            }
+        });
+
         ImageButton la_shoteria = (ImageButton) findViewById(R.id.la_shoteria);
         la_shoteria.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -24,39 +24,8 @@
         android:textSize="22sp"
         android:textColor="#000" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/republica_ed"
-        android:id="@+id/imageView11"
-        android:layout_marginBottom="196dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
-        android:text="Espacio amplio con luces coloridas para bailar excelente música de DJs."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView85"
-        android:textSize="18sp"
-        android:textColor="#000" />
-
-    <TextView
-        android:text="Horario:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView11"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="12dp"
-        android:id="@+id/textView86"
-        android:textStyle="normal|bold"
-        android:textSize="20sp"
-        android:textColor="#000" />
-
-    <TextView
-        android:text="Jueves a Sabado de 9:00pm a 2:00am"
+        android:text="@string/horario_repu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView87"
@@ -67,7 +36,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Direccion:"
+        android:text="@string/direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView87"
@@ -79,7 +48,7 @@
         android:textColor="#000" />
 
     <TextView
-        android:text="Río Grijalva, Del Valle, 66220 San Pedro Garza García, N.L."
+        android:text="@string/direccion_repu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView88"
@@ -89,10 +58,41 @@
         android:textColor="#000" />
 
     <Button
-        android:text="VER EN MAPA"
+        android:text="@string/ver_mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/button12" />
+
+    <TextView
+        android:text="@string/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView86"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_above="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="159dp" />
+
+    <TextView
+        android:text="@string/repu_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView85"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_above="@+id/textView87"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/republica_ed"
+        android:id="@+id/imageView11"
+        android:layout_above="@+id/textView87"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

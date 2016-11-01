@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TravelBuddy</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuracion</string>
     <string name="title_activity_vida_nocturna">Vida Nocturna</string>
     <string name="title_activity_vida_nocturna1">VIDA NOCTURNA</string>
     <string name="title_activity_d_club">Antros</string>
@@ -69,7 +69,7 @@
     <string name="ver_mapa">VER EN MAPA</string>
     <string name="title_activity_info_los_frijoles">Los Frijoles</string>
     <string name="los_frijoles_text1">Alegre merendero y bar con terraza y decoración campestre en donde se ofrece buffet de platillos mexicanos.</string>
-    <string name="horario_los_frijoles">Lunes a Domigo de 8:00 a 19:00</string>
+    <string name="horario_los_frijoles">Lunes a Domingo de 8:00 a 19:00</string>
     <string name="direccion_los_frijoles">Calle Albino Espinosa, Centro, 64000 Monterrey, N.L.</string>
     <string name="title_activity_info_san_carlos">San Carlos</string>
     <string name="san_carlos_text1">Restaurante familiar con estilo clásico conocido por su carne asada al carbón y su comida regiomontana.</string>
@@ -167,4 +167,46 @@ El lugar es parte del Parque Nacional Cumbres de Monterrey y cuenta con diversos
     <string name="huasteca_info">La Huasteca es un parque ecológico ubicado en el municipio de Santa Catarina en el estado de Nuevo León, dentro del área metropolitana de la ciudad de Monterrey. Se encuentra enclavado entre la Sierra Madre Oriental, con grandes formaciones montañosas y rocosas, y forma parte del Parque Nacional Cumbres de Monterrey.
 El lugar se encuentra en el paso natural del Río Santa Catarina y se ha acondicionado una pequeña parte del área para hacer un foro donde se llevan a cabo eventos artísticos, culturales y deportivos.</string>
 
+    <string name="dclub_text1">Espacio amplio con techo alto, luces coloridas y paredes de ladrillo y madera para bailar música de DJs.</string>
+    <string name="horario_dclub">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_dclub">Del Valle, 66220 N.L.</string>
+    <string name="maddox_text1">Espacio amplio con luces coloridas para bailar excelente música de DJs.</string>
+    <string name="horario_maddox">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_maddox">Av. del Roble #300 Oriente Local 4,5 y 6  Col. Valle del Campestre. San Pedro Garza García, C.P. 66265</string>
+    <string name="repu_text1">Espacio amplio con luces coloridas para bailar excelente música de DJs.</string>
+    <string name="horario_repu">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_repu">Río Grijalva, Del Valle, 66220 San Pedro Garza García, N.L.</string>
+    <string name="press_text1">Espacio amplio con luces coloridas para bailar excelente música de DJs.</string>
+    <string name="horario_press">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_press">66220, Río Orinoco 5, Del Valle, Monterrey, N.L.</string>
+    <string name="barezzito_text1">¡Música en vivo, el mejor ambiente, sushi y mucho mas! ¡Aprovecha las promociones que se manejan entre semana!</string>
+    <string name="horario_barezzito">Martes a Domingo de 9:00pm a 2:00am</string>
+    <string name="direccion_barezzito">Av. Eugenio Garza Sada 2408 Paseo TEC 2</string>
+    <string name="strana_text1">Strana es el lugar donde redefinimos la vida nocturna, un lugar con un ambiente magnético, un espacio donde se viven experiencias únicas e inigualables.</string>
+    <string name="horario_strana">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_strana">Río Caura 350, Del Valle, 66220 N.L.</string>
+    <string name="classico_text1">Es un lugar gigante que esta decorado espectacularmente con un gran candelabro en el centro que se ilumina con las luces de disco, cuenta con varias barras para no hacer esperar a la gente.</string>
+    <string name="horario_classico">Jueves a Sabado de 9:00pm a 2:00am</string>
+    <string name="direccion_classico">Río Orinoco 105, Del Valle, 66220 San Pedro Garza García, N.L.</string>
+    <string name="mostacho_text1">Bar con ambiente juvenil, menú internacional y una variedad de bebidas para el precopeo o para ver el futbol.</string>
+    <string name="horario_mostacho">Lunes a Miercoles de 13:00-1:00, Jueves a Sabado de 13:00-2:00 y Domingos de 13:00 a 12:00</string>
+    <string name="direccion_mostacho">Paseo Tec, Avenida Eugenio Garza Sada 2411</string>
+    <string name="macarena_text1">La macarena es un lugar con un concepto que va de la música salsa a la banda norteña dependiendo del día.</string>
+    <string name="horario_macarena">Lunes a Domingo de 15:00 a 02:00</string>
+    <string name="direccion_macarena">Av. Miguel Aleman No. 6063, Local 401 al 404, Las Americas, 67130 Guadalupe, N.L.</string>
+    <string name="costenito_text1">Tiene buen ambiente, la comida es excelente. Ideal para ir por unas cervezas y botanear con los amigos</string>
+    <string name="horario_costenito">Lunes a Domindo de 12:00 a 00:00</string>
+    <string name="direccion_costenito">Plaza Paseo Tec, Av. Eugenio Garza Sada #2413</string>
+    <string name="clama_text1">Los mejores clamatos preparados y excelente música de fondo, promociones los fines de semana, buenos precios.</string>
+    <string name="horario_clama">Lunes a Domingo de 15:00 a 1:00</string>
+    <string name="direccion_clama">Rio Mississippi 198, Del Valle, 66220 Monterrey, N.L.</string>
+    <string name="coqueta_text1">Excelente ambiente, centrito valle es la nueva zona de diversión nocturna y La Coqueta es de las mejores opciones si te gusta la música norteña.</string>
+    <string name="horario_coqueta">Jueves a Sabado de 21:00 a 2:00</string>
+    <string name="direccion_coqueta">Río Orinoco 118, Del Valle, 66220 San Pedro Garza García, N.L.</string>
+    <string name="shoteria_text1">Bar con ambiente juvenil, excelente comida y una variedad de bebidas para el precopeo o para ver el futbol.</string>
+    <string name="horario_shoteria">Jueves a Sabado de 20:00 a 3:00</string>
+    <string name="direccion_shoteria">Av. Miguel Alemán Entre la Calle La Luz y Calle Las Américas 6063, Las Americas, 67130 Guadalupe, N.L.</string>
+
+    <string name="antros">Antros</string>
+    <string name="bares">Bares</string>
 </resources>
